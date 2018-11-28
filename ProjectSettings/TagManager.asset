@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MovingPlatform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Hintergrund
+    uniqueID: 4176840585
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HinterSpieler
+    uniqueID: 3020869189
+    locked: 0
+  - name: Spieler
+    uniqueID: 2433315041
+    locked: 0
+  - name: VorSpieler
+    uniqueID: 624320155
+    locked: 0
+  - name: GanzVorne
+    uniqueID: 4220019737
+    locked: 0
