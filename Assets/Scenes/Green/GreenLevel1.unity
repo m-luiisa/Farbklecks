@@ -1103,6 +1103,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4528160410198088, guid: cc4304ab05deb7f4295ead6dbeb989a5,
     type: 2}
   m_PrefabInternal: {fileID: 1820706918}
+--- !u!4 &815852457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956,
+    type: 2}
+  m_PrefabInternal: {fileID: 1556888707}
 --- !u!4 &831288563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4410401110270966, guid: 1ed9ee33b21b23f478f0f09b8824b8af,
@@ -1449,6 +1454,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4161191011645982, guid: 6caccc5c96edf164586e3bce0d1a6a4d,
     type: 2}
   m_PrefabInternal: {fileID: 1387476046}
+--- !u!1 &1207977062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207977063}
+  - component: {fileID: 1207977064}
+  m_Layer: 0
+  m_Name: ShootSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207977063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207977062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.21797962, y: -0.083205454, z: 0.057692796}
+  m_LocalScale: {x: 0.8200315, y: 0.98869616, z: 1}
+  m_Children: []
+  m_Father: {fileID: 815852457}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207977064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207977062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc16431eb87b2c4fbc46d2cea225fb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletspawn: {fileID: 0}
+  bulletPrefab: {fileID: 50281494880216356, guid: e07cc20fd6638134b872fc9adc0f769a,
+    type: 2}
+  clone: {fileID: 0}
+  shootSpeed: 500
 --- !u!4 &1265248825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4139733180694790, guid: 9c65e9b3abf378149a030bccb5d32937,
@@ -1737,7 +1787,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.9338431
+      value: -2.109
       objectReference: {fileID: 0}
     - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
       propertyPath: m_LocalPosition.z
