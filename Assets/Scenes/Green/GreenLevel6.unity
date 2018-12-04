@@ -313,6 +313,48 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &103503873
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.567937
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.8440104
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239234406459168, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b91cff0456807d64aacf9818786b2956, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &126398185
 Prefab:
   m_ObjectHideFlags: 0
@@ -421,6 +463,48 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6caccc5c96edf164586e3bce0d1a6a4d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &186297715
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.31241536
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4629350267410770, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 795b73b3003c18e4684dd3e221805b9a, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &193760584 stripped
 Transform:
@@ -2225,7 +2309,7 @@ Transform:
   - {fileID: 835592694}
   - {fileID: 1597042633}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1468433357
 Prefab:
