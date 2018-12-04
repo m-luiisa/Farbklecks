@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shoot : MonoBehaviour {
 
     public Transform bulletspawn;
+    public Transform player;
 
     public Rigidbody2D bulletPrefab;
     public Rigidbody2D clone;
@@ -14,6 +15,7 @@ public class Shoot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         bulletspawn = GameObject.Find ("ShootSpawn").transform;
+        player = GameObject.Find("CharacterRobotBoy").transform;
 	}
 	
 	// Update is called once per frame
@@ -28,7 +30,18 @@ public class Shoot : MonoBehaviour {
 
     void Attack()
     {
-        clone = Instantiate(bulletPrefab, bulletspawn.position, bulletspawn.rotation);
-        clone.AddForce(bulletspawn.transform.right * shootSpeed);
+        if (player.position.x < bulletspawn.position.x)
+        {
+            clone = Instantiate(bulletPrefab, bulletspawn.position, bulletspawn.rotation);
+            clone.AddForce(bulletspawn.transform.right * shootSpeed);
+        }
+
+        if (player.position.x > bulletspawn.position.x)
+        {
+            clone = Instantiate(bulletPrefab, bulletspawn.position, bulletspawn.rotation);
+            clone.AddForce(bulletspawn.transform.right * -shootSpeed);
+        }
+
     }
+
 }
