@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\BulletDestruction.cs" />
     <Compile Include="Assets\Scripts\CollisionDiablo.cs" />
     <Compile Include="Assets\Scripts\DiabloMoving.cs" />
+    <Compile Include="Assets\Scripts\GotShot.cs" />
     <Compile Include="Assets\Scripts\neustart.cs" />
     <Compile Include="Assets\Scripts\PlatformMoving.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />

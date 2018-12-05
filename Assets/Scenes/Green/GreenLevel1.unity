@@ -1466,7 +1466,7 @@ GameObject:
   m_Layer: 0
   m_Name: ShootSpawn
   m_TagString: Untagged
-  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1495,6 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletspawn: {fileID: 0}
+  player: {fileID: 0}
   bulletPrefab: {fileID: 50281494880216356, guid: e07cc20fd6638134b872fc9adc0f769a,
     type: 2}
   clone: {fileID: 0}
@@ -2647,6 +2648,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4161191011645982, guid: 6caccc5c96edf164586e3bce0d1a6a4d,
     type: 2}
   m_PrefabInternal: {fileID: 2086604794}
+--- !u!1 &2102216232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1087238650689830, guid: 11305d9fdbc87544ca54b9696724bd4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1756784252}
+--- !u!114 &2102216234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102216232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905f5f616e157ac438b3ca95d990a682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2102216235
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102216232}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &2102330705
 Prefab:
   m_ObjectHideFlags: 0
