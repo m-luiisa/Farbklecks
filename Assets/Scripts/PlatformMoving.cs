@@ -7,6 +7,7 @@ public class PlatformMoving : MonoBehaviour {
   private Vector3 startPos;
   private Vector3 newPos;
   public float speed = 1.5f;
+  public uint max =3;
 
 	// Use this for initialization
 	void Start ()
@@ -18,7 +19,7 @@ public class PlatformMoving : MonoBehaviour {
 	void Update ()
   {
     newPos = startPos;
-    newPos.x = newPos.x + Mathf.PingPong(Time.time * speed, 4);
+    newPos.x = newPos.x + Mathf.PingPong(Time.time * speed, max);
     transform.position = newPos;
 	}
 }

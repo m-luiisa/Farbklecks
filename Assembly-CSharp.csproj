@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\PlatformMoving.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
+    <Compile Include="Assets\Scripts\Tropfen.cs" />
     <Compile Include="Assets\Scripts\Ziel.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
