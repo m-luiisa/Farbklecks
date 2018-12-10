@@ -70,19 +70,19 @@ public class Player : MonoBehaviour
         PlayerPrefs.SetInt("Blue", blue);
         Destroy(collision.gameObject);
         break;
-      case "DropsCyan":
+      case "DropCyan":
         cyan += counter;
         dropsCyan.text = cyan.ToString();
         PlayerPrefs.SetInt("Cyan", cyan);
         Destroy(collision.gameObject);
         break;
-      case "DropsMagenta":
+      case "DropMagenta":
         magenta += counter;
         dropsMagenta.text = magenta.ToString();
         PlayerPrefs.SetInt("Magenta", magenta);
         Destroy(collision.gameObject);
         break;
-      case "DropsYellow":
+      case "DropYellow":
         yellow += counter;
         dropsYellow.text = yellow.ToString();
         PlayerPrefs.SetInt("Yellow", yellow);
