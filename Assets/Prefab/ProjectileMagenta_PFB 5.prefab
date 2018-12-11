@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61322301172230974}
   - component: {fileID: 114359563777756714}
   m_Layer: 0
-  m_Name: Projectile_PFB
+  m_Name: ProjectileMagenta_PFB 5
   m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,7 +136,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 43b55a60233f59c4a920bee4725fd575, type: 3}
-  m_Color: {r: 0, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

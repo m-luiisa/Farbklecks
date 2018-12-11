@@ -27,7 +27,12 @@ public class Player : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-
+    dropsRed.text = PlayerPrefs.GetInt("Red").ToString();
+    dropsGreen.text = PlayerPrefs.GetInt("Green").ToString();
+    dropsBlue.text = PlayerPrefs.GetInt("Blue").ToString();
+    dropsCyan.text = PlayerPrefs.GetInt("Cyan").ToString();
+    dropsMagenta.text = PlayerPrefs.GetInt("Magenta").ToString();
+    dropsYellow.text = PlayerPrefs.GetInt("Yellow").ToString();
   }
 
   private void OnCollisionStay2D(Collision2D collision)
