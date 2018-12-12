@@ -1041,11 +1041,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4562706428651168, guid: d2d32b57ed9719b449c598ea3336dd21, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.2892214
+      value: -1.14
       objectReference: {fileID: 0}
     - target: {fileID: 4562706428651168, guid: d2d32b57ed9719b449c598ea3336dd21, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.912677
+      value: -4.96
       objectReference: {fileID: 0}
     - target: {fileID: 4562706428651168, guid: d2d32b57ed9719b449c598ea3336dd21, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2736,32 +2736,32 @@ Prefab:
     - target: {fileID: 224734028188739918, guid: 4a744b66f42053749bb542d6f5e92212,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 252.49997
+      value: 244.99997
       objectReference: {fileID: 0}
     - target: {fileID: 224256835700717670, guid: 4a744b66f42053749bb542d6f5e92212,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 252.49997
+      value: 244.99997
       objectReference: {fileID: 0}
     - target: {fileID: 224525326534457056, guid: 4a744b66f42053749bb542d6f5e92212,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 252.49997
+      value: 245
       objectReference: {fileID: 0}
     - target: {fileID: 224257838975237836, guid: 4a744b66f42053749bb542d6f5e92212,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 252.49997
+      value: 244.99997
       objectReference: {fileID: 0}
     - target: {fileID: 224025720312377080, guid: 4a744b66f42053749bb542d6f5e92212,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 252.5
+      value: 245
       objectReference: {fileID: 0}
     - target: {fileID: 224877515113536376, guid: 4a744b66f42053749bb542d6f5e92212,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 252.49997
+      value: 244.99997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a744b66f42053749bb542d6f5e92212, type: 2}
@@ -3166,7 +3166,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

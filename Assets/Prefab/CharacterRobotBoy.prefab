@@ -253,8 +253,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe1a3e4956ba3a4692b90c649a01dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  green: 0
-  counterGreen: {fileID: 0}
+  dropsRed: {fileID: 0}
+  dropsGreen: {fileID: 0}
+  dropsBlue: {fileID: 0}
+  dropsCyan: {fileID: 0}
+  dropsMagenta: {fileID: 0}
+  dropsYellow: {fileID: 0}
+  counter: 3
 --- !u!114 &114848494814494834
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -268,9 +273,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletspawn: {fileID: 0}
   player: {fileID: 0}
-  bulletPrefab: {fileID: 50281494880216356, guid: e07cc20fd6638134b872fc9adc0f769a,
+  bulletGreen: {fileID: 50281494880216356, guid: e07cc20fd6638134b872fc9adc0f769a,
+    type: 2}
+  bulletRed: {fileID: 50281494880216356, guid: ca27f87e654a16e4eaf29176a335bf70, type: 2}
+  bulletBlue: {fileID: 50281494880216356, guid: 491ca2c529607ee40af02d9f514b0e3f,
+    type: 2}
+  bulletCyan: {fileID: 50281494880216356, guid: 6e6de68dafbf68b4d8b1153356aa8754,
+    type: 2}
+  bulletMagenta: {fileID: 50281494880216356, guid: 881ac3f97d20ec14091e70b7300fdd82,
+    type: 2}
+  bulletYellow: {fileID: 50281494880216356, guid: 987b7170caaeb6447a54bb21fd8d7ef1,
     type: 2}
   clone: {fileID: 0}
+  ActualColor: 0
+  colorList:
+  - Red
+  - Green
+  - Blue
+  - Cyan
+  - Magenta
+  - Yellow
   shootSpeed: 500
 --- !u!212 &212325028379056598
 SpriteRenderer:

@@ -3294,6 +3294,42 @@ Prefab:
       propertyPath: dropsYellow
       value: 
       objectReference: {fileID: 1907134688}
+    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: bulletGreen
+      value: 
+      objectReference: {fileID: 50281494880216356, guid: e07cc20fd6638134b872fc9adc0f769a,
+        type: 2}
+    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: bulletRed
+      value: 
+      objectReference: {fileID: 50281494880216356, guid: ca27f87e654a16e4eaf29176a335bf70,
+        type: 2}
+    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: bulletBlue
+      value: 
+      objectReference: {fileID: 50281494880216356, guid: 491ca2c529607ee40af02d9f514b0e3f,
+        type: 2}
+    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: bulletCyan
+      value: 
+      objectReference: {fileID: 50281494880216356, guid: 6e6de68dafbf68b4d8b1153356aa8754,
+        type: 2}
+    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: bulletMagenta
+      value: 
+      objectReference: {fileID: 50281494880216356, guid: 881ac3f97d20ec14091e70b7300fdd82,
+        type: 2}
+    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: bulletYellow
+      value: 
+      objectReference: {fileID: 50281494880216356, guid: 987b7170caaeb6447a54bb21fd8d7ef1,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77092702f8ef5084eae20ca3225270ba, type: 2}
   m_IsPrefabAsset: 0

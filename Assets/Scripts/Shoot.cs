@@ -68,98 +68,93 @@ public class Shoot : MonoBehaviour
   
   void ShootGreen()
   {
-    if (Player.green == 0)
+    if (PlayerPrefs.GetInt("Green") == 0)
     {
       Debug.Log("Keine grüne Farbe mehr :/");
     }
     else
     {
-      Debug.Log("Player bullets: " + Player.green);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Green"));
       clone = Instantiate(bulletGreen, bulletspawn.position, bulletspawn.rotation);
       ExecuteShoot();
-      Player.green -= 1;
-      PlayerPrefs.SetInt("Green", Player.green);
-      Debug.Log("Player bullets: " + Player.green);
+      PlayerPrefs.SetInt("Green", PlayerPrefs.GetInt("Green")-1);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Green"));
     }
   }
+
   void ShootRed()
   {
-    if (Player.red == 0)
+    if (PlayerPrefs.GetInt("Red") == 0)
     {
-      Debug.Log("You do not have any red color left :/");
+      Debug.Log("Keine rote Farbe mehr :/");
     }
     else
     {
-      Debug.Log("Player bullets: " + Player.red);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Red"));
       clone = Instantiate(bulletRed, bulletspawn.position, bulletspawn.rotation);
       ExecuteShoot();
-      Player.red -= 1;
-      PlayerPrefs.SetInt("Red", Player.red);
-      Debug.Log("Player bullets: " + Player.red);
+      PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") - 1);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Red"));
     }
   }
   void ShootCyan()
   {
-    if (Player.cyan == 0)
+    if (PlayerPrefs.GetInt("Cyan") == 0)
     {
       Debug.Log("You do not have any cyan color left :/");
     }
     else
     {
-      Debug.Log("Player bullets: " + Player.cyan);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Cyan"));
       clone = Instantiate(bulletCyan, bulletspawn.position, bulletspawn.rotation);
       ExecuteShoot();
-      Player.cyan -= 1;
-      PlayerPrefs.SetInt("Cyan", Player.cyan);
-      Debug.Log("Player bullets: " + Player.cyan);
+      PlayerPrefs.SetInt("Cyan", PlayerPrefs.GetInt("Cyan") - 1);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Cyan"));
     }
   }
   void ShootBlue()
   {
-    if (Player.blue == 0)
+    if (PlayerPrefs.GetInt("Blue") == 0)
     {
-      Debug.Log("You do not have any blue color left :/");
+      Debug.Log("You do not have any Blue color left :/");
     }
     else
     {
-      Debug.Log("Player bullets: " + Player.blue);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Blue"));
       clone = Instantiate(bulletBlue, bulletspawn.position, bulletspawn.rotation);
       ExecuteShoot();
-      Player.blue -= 1;
-      PlayerPrefs.SetInt("Blue", Player.blue);
-      Debug.Log("Player bullets: " + Player.blue);
+      PlayerPrefs.SetInt("Blue", PlayerPrefs.GetInt("Blue") - 1);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Blue"));
     }
   }
   void ShootMagenta()
   {
-    if (Player.magenta == 0)
+    if (PlayerPrefs.GetInt("Magenta") == 0)
     {
-      Debug.Log("You do not have any magenta color left :/");
+      Debug.Log("You do not have any Magenta color left :/");
     }
     else
     {
-      Debug.Log("Player bullets: " + Player.magenta);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Magenta"));
       clone = Instantiate(bulletMagenta, bulletspawn.position, bulletspawn.rotation);
       ExecuteShoot();
-      Player.magenta -= 1;
-      PlayerPrefs.SetInt("Magenta", Player.magenta);
-      Debug.Log("Player bullets: " + Player.magenta);
+      PlayerPrefs.SetInt("Magenta", PlayerPrefs.GetInt("Magenta") - 1);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Magenta"));
     }
   }
   void ShootYellow()
   {
-    if (Player.yellow == 0)
+    if (PlayerPrefs.GetInt("Yellow") == 0)
     {
-      Debug.Log("You do not have any yellow color left :/");
+      Debug.Log("You do not have any Yellow color left :/");
     }
     else
     {
-      Debug.Log("Player bullets: " + Player.yellow);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Yellow"));
       clone = Instantiate(bulletYellow, bulletspawn.position, bulletspawn.rotation);
       ExecuteShoot();
-      Player.yellow -= 1;
-      PlayerPrefs.SetInt("Yellow", Player.yellow);
-      Debug.Log("Player bullets: " + Player.yellow);
+      PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") - 1);
+      Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Yellow"));
     }
   }
 
