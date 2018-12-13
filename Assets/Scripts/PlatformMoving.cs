@@ -7,7 +7,7 @@ public class PlatformMoving : MonoBehaviour {
   private Vector3 startPos;
   private Vector3 newPos;
   public float speed = 1.5f;
-  public uint max =3;
+  public float max = 3.0f;
 
 	// Use this for initialization
 	void Start ()
