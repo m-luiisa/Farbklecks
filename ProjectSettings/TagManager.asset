@@ -9,6 +9,7 @@ TagManager:
   - DropGreen
   - DropMagenta
   - DropYellow
+  - GreenGround
   layers:
   - Default
   - TransparentFX

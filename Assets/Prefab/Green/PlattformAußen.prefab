@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4673613616714848}
   - component: {fileID: 212318290053412544}
   - component: {fileID: 61263143437114712}
+  - component: {fileID: 114355756474561578}
   m_Layer: 0
   m_Name: "PlattformAu\xDFen"
   m_TagString: Untagged
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8467698, y: 0.7703972}
   m_EdgeRadius: 0
+--- !u!114 &114355756474561578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1049274989354624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
 --- !u!212 &212318290053412544
 SpriteRenderer:
   m_ObjectHideFlags: 1

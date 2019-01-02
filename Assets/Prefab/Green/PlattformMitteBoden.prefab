@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4851109589739676}
   - component: {fileID: 212611916366975776}
   - component: {fileID: 61374250380491588}
+  - component: {fileID: 114531558883478364}
   m_Layer: 0
   m_Name: PlattformMitteBoden
   m_TagString: Untagged
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &114531558883478364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315683079024304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
 --- !u!212 &212611916366975776
 SpriteRenderer:
   m_ObjectHideFlags: 1
