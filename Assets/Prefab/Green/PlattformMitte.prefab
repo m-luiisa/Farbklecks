@@ -82,6 +82,9 @@ MonoBehaviour:
   clone: {fileID: 0}
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  yellowGround: {fileID: 1222139823760222, guid: 61244f13fde35f74ab2f6b8c32eecb25,
+    type: 2}
 --- !u!212 &212427227210474344
 SpriteRenderer:
   m_ObjectHideFlags: 1
