@@ -20,6 +20,7 @@ public class Shoot : MonoBehaviour
   public int ActualColor = 0; //Red = 0 | Green = 1 | blue = 2 | Cyan = 3 | Magenta = 4 | Yellow = 5
   public string[] colorList = { "Red", "Green", "Blue", "Cyan", "Magenta", "Yellow" };
 
+  public int indicator = 0;
 
   public int shootSpeed = 500;
 
@@ -37,7 +38,19 @@ public class Shoot : MonoBehaviour
     {
       ActualColor = (ActualColor + 1) % 6;
       Debug.Log("Color changed to " + colorList[ActualColor]);
+      indicator++;
 
+      if (indicator != 6)
+      {
+        GameObject.Find("Arrow").transform.Translate(new Vector3(55, 0, 0));
+        Debug.Log("Wurde verschoben");
+      }
+      else
+      {
+        indicator = 0;
+        GameObject.Find("Arrow").transform.Translate(new Vector3(-275, 0, 0));
+        Debug.Log("Wurde verschoben");
+      }
     }
 
     if (Input.GetButtonDown("Fire1"))
