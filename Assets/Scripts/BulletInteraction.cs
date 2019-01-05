@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletGreen : MonoBehaviour {
+public class BulletInteraction : MonoBehaviour {
 
   public Transform spawn;
   public GameObject clone;
   public GameObject greenGround;
+  public GameObject redGround;
 
  
   void OnCollisionEnter2D(Collision2D other)
@@ -18,6 +19,15 @@ public class BulletGreen : MonoBehaviour {
       //GetComponent<Renderer>().material.color = Color.green;
       spawn = this.transform;
       clone = Instantiate(greenGround, spawn.position, spawn.rotation);
+    }
+
+    if (other.gameObject.tag == "Red")
+    {
+      Destroy(other.gameObject);
+      Debug.Log("Red hat auf Boden getroffen!");
+      //GetComponent<Renderer>().material.color = Color.green;
+      spawn = this.transform;
+      clone = Instantiate(redGround, spawn.position, spawn.rotation);
     }
 
   }
