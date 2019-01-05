@@ -10,6 +10,11 @@ TagManager:
   - DropMagenta
   - DropYellow
   - GreenGround
+  - Blue
+  - Red
+  - Magenta
+  - Cyan
+  - Yellow
   layers:
   - Default
   - TransparentFX
