@@ -18,7 +18,7 @@ public class BulletInteraction : MonoBehaviour {
       Debug.Log("Grün hat auf Boden getroffen!");
       //GetComponent<Renderer>().material.color = Color.green;
       spawn = this.transform;
-      clone = Instantiate(greenGround, spawn.position, spawn.rotation);
+      clone = Instantiate(greenGround, spawn.position + new Vector3(0,0.25f,0), spawn.rotation);
     }
 
     if (other.gameObject.tag == "Red")
