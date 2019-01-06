@@ -510,10 +510,6 @@ MonoBehaviour:
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
   redGround: {fileID: 0}
-<<<<<<< HEAD
-  yellowGround: {fileID: 0}
-=======
->>>>>>> 4d9796a4b85518e5e23019311e82a20e2cab37a4
 --- !u!4 &261379394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4410401110270966, guid: 1ed9ee33b21b23f478f0f09b8824b8af,
@@ -583,79 +579,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &299152866
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1509591876885738, guid: 4a744b66f42053749bb542d6f5e92212,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 299152867}
-  - component: {fileID: 299152869}
-  - component: {fileID: 299152868}
-  m_Layer: 0
-  m_Name: Arrow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &299152867
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 224877515113536376, guid: 4a744b66f42053749bb542d6f5e92212,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 299152866}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2263299, y: 1.1196799, z: 0.00908}
-  m_Children: []
-  m_Father: {fileID: 1353397265}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -480.7, y: 240.2}
-  m_SizeDelta: {x: 53.57, y: 60.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &299152868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114092711137569894, guid: 4a744b66f42053749bb542d6f5e92212,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 299152866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 37cff9f968465c44690b69903922aeb6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &299152869
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 222728662947317356, guid: 4a744b66f42053749bb542d6f5e92212,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 299152866}
-  m_CullTransparentMesh: 0
 --- !u!4 &302625398 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4562706428651168, guid: d2d32b57ed9719b449c598ea3336dd21,
@@ -1649,10 +1572,6 @@ MonoBehaviour:
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
   redGround: {fileID: 0}
-<<<<<<< HEAD
-  yellowGround: {fileID: 0}
-=======
->>>>>>> 4d9796a4b85518e5e23019311e82a20e2cab37a4
 --- !u!4 &831288563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4410401110270966, guid: 1ed9ee33b21b23f478f0f09b8824b8af,
@@ -2219,10 +2138,6 @@ MonoBehaviour:
   clone: {fileID: 0}
   greenGround: {fileID: 0}
   redGround: {fileID: 0}
-<<<<<<< HEAD
-  yellowGround: {fileID: 0}
-=======
->>>>>>> 4d9796a4b85518e5e23019311e82a20e2cab37a4
 --- !u!4 &1170365579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4161191011645982, guid: 6caccc5c96edf164586e3bce0d1a6a4d,
@@ -2986,12 +2901,6 @@ Prefab:
       propertyPath: m_Mass
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114848494814494834, guid: 77092702f8ef5084eae20ca3225270ba,
-        type: 2}
-      propertyPath: arrow
-      value: 
-      objectReference: {fileID: 1804401041181710, guid: d12962897f4d7a548b0df241492844e9,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77092702f8ef5084eae20ca3225270ba, type: 2}
   m_IsPrefabAsset: 0
@@ -3789,10 +3698,6 @@ MonoBehaviour:
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
   redGround: {fileID: 0}
-<<<<<<< HEAD
-  yellowGround: {fileID: 0}
-=======
->>>>>>> 4d9796a4b85518e5e23019311e82a20e2cab37a4
 --- !u!1001 &1877387837
 Prefab:
   m_ObjectHideFlags: 0
@@ -3889,21 +3794,6 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114092711137569894, guid: 4a744b66f42053749bb542d6f5e92212,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114092711137569894, guid: 4a744b66f42053749bb542d6f5e92212,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114092711137569894, guid: 4a744b66f42053749bb542d6f5e92212,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 253db33c9558b114c98536ae5977f77f, type: 2}

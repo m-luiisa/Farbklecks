@@ -5,7 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - MovingPlatform
+  - Green
   - DropGreen
+  - DropMagenta
+  - DropYellow
+  - GreenGround
+  - Blue
+  - Red
+  - Magenta
+  - Cyan
+  - Yellow
   layers:
   - Default
   - TransparentFX
@@ -40,9 +49,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Hintergrund
+    uniqueID: 4176840585
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 612515475
+  - name: HinterSpieler
+    uniqueID: 3020869189
+    locked: 0
+  - name: Spieler
+    uniqueID: 2433315041
+    locked: 0
+  - name: VorSpieler
+    uniqueID: 624320155
+    locked: 0
+  - name: GanzVorne
+    uniqueID: 4220019737
     locked: 0

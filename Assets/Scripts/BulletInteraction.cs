@@ -8,7 +8,6 @@ public class BulletInteraction : MonoBehaviour {
   public GameObject clone;
   public GameObject greenGround;
   public GameObject redGround;
-  public GameObject yellowGround;
 
  
   void OnCollisionEnter2D(Collision2D other)
@@ -19,7 +18,7 @@ public class BulletInteraction : MonoBehaviour {
       Debug.Log("Grün hat auf Boden getroffen!");
       //GetComponent<Renderer>().material.color = Color.green;
       spawn = this.transform;
-      clone = Instantiate(greenGround, spawn.position + new Vector3(0, 0.1f, 0), spawn.rotation);
+      clone = Instantiate(greenGround, spawn.position, spawn.rotation);
     }
 
     if (other.gameObject.tag == "Red")
@@ -28,16 +27,7 @@ public class BulletInteraction : MonoBehaviour {
       Debug.Log("Red hat auf Boden getroffen!");
       //GetComponent<Renderer>().material.color = Color.green;
       spawn = this.transform;
-      clone = Instantiate(redGround, spawn.position + new Vector3(0,0.1f,0), spawn.rotation);
-    }
-
-    if (other.gameObject.tag == "Yellow")
-    {
-      Destroy(other.gameObject);
-      Debug.Log("Yellow hat auf Boden getroffen!");
-      //GetComponent<Renderer>().material.color = Color.green;
-      spawn = this.transform;
-      clone = Instantiate(yellowGround, spawn.position + new Vector3(0, 0.1f, 0), spawn.rotation);
+      clone = Instantiate(redGround, spawn.position, spawn.rotation);
     }
 
   }

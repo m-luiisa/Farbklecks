@@ -15,7 +15,6 @@ public class Shoot : MonoBehaviour
   public Rigidbody2D bulletMagenta;
   public Rigidbody2D bulletYellow;
 
-
   public Rigidbody2D clone;
 
   public int ActualColor = 0; //Red = 0 | Green = 1 | blue = 2 | Cyan = 3 | Magenta = 4 | Yellow = 5
@@ -30,7 +29,6 @@ public class Shoot : MonoBehaviour
   {
     bulletspawn = GameObject.Find("ShootSpawn").transform;
     player = GameObject.Find("CharacterRobotBoy").transform;
-    GameObject.Find("Arrow").transform
   }
 
   // Update is called once per frame
@@ -45,13 +43,13 @@ public class Shoot : MonoBehaviour
       if (indicator != 6)
       {
         GameObject.Find("Arrow").transform.Translate(new Vector3(55, 0, 0));
-        Debug.Log("Wurde verschoben"+ "aktuelle Position" + GameObject.Find("Arrow").transform.position);
+        Debug.Log("Wurde verschoben");
       }
       else
       {
         indicator = 0;
         GameObject.Find("Arrow").transform.Translate(new Vector3(-275, 0, 0));
-        Debug.Log("Wurde verschoben" + "aktuelle Position" + GameObject.Find("Arrow").transform.position);
+        Debug.Log("Wurde verschoben");
       }
     }
 
