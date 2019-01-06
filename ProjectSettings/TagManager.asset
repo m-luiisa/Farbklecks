@@ -10,14 +10,7 @@ TagManager:
   - DropMagenta
   - DropYellow
   - GreenGround
-<<<<<<< HEAD
   - Red
-=======
-  - Blue
-  - Red
-  - Magenta
-  - Cyan
->>>>>>> 4d9796a4b85518e5e23019311e82a20e2cab37a4
   - Yellow
   layers:
   - Default
