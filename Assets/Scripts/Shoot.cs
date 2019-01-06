@@ -22,7 +22,7 @@ public class Shoot : MonoBehaviour
 
   public int indicator = 0;
 
-  public int shootSpeed = 500;
+  public int shootSpeed = 50;
 
   // Use this for initialization
   void Start()
@@ -173,14 +173,10 @@ public class Shoot : MonoBehaviour
 
   void ExecuteShoot()
   {
-    if (player.position.x < bulletspawn.position.x)
-    {
-      clone.AddForce(bulletspawn.transform.right * shootSpeed);
-    }
-
-    if (player.position.x > bulletspawn.position.x)
-    {
-      clone.AddForce(bulletspawn.transform.right * -shootSpeed);
-    }
+    var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    Vector3 direction = mousePosition - bulletspawn.transform.position;
+    direction.Normalize();
+    clone.AddForce(direction * shootSpeed);
+    
   }
 }
