@@ -8,7 +8,9 @@ public class BulletInteraction : MonoBehaviour {
   public GameObject clone;
   public GameObject greenGround;
   public GameObject redGround;
-
+  public GameObject blueGround;
+  public GameObject cyanGround;
+  public GameObject magentaGround;
  
   void OnCollisionEnter2D(Collision2D other)
   {

@@ -22,7 +22,7 @@ public class Shoot : MonoBehaviour
 
   public int indicator = 0;
 
-  public int shootSpeed = 50;
+  public int shootSpeed = 100;
 
   // Use this for initialization
   void Start()
@@ -175,7 +175,8 @@ public class Shoot : MonoBehaviour
   {
     var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     Vector3 direction = mousePosition - bulletspawn.transform.position;
-    direction.Normalize();
+    var length = Mathf.Sqrt(direction.x * direction.x + direction.y * direction.y + direction.z * direction.z);
+    direction /= length;
     clone.AddForce(direction * shootSpeed);
     
   }
