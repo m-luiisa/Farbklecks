@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -9,23 +7,18 @@ public class Player : MonoBehaviour
   // Use this for initialization
 
   public Text dropsRed, dropsGreen, dropsBlue, dropsCyan, dropsMagenta, dropsYellow;
-  public int counter = 3;
 
-  //Health
-  public int health;
-  public float invincible = 2;
+  public int counter = 3;
 
   void Start()
   {
-    //load Score:
-    dropsRed.text = PlayerPrefs.GetInt("Red").ToString();
-    dropsGreen.text = PlayerPrefs.GetInt("Green").ToString();
-    dropsBlue.text = PlayerPrefs.GetInt("Blue").ToString();
-    dropsCyan.text = PlayerPrefs.GetInt("Cyan").ToString();
-    dropsMagenta.text = PlayerPrefs.GetInt("Magenta").ToString();
-    dropsYellow.text = PlayerPrefs.GetInt("Yellow").ToString();
-    health = 3;
-    Physics2D.IgnoreLayerCollision(0, 8, false);
+      //load Score:
+      dropsRed.text = PlayerPrefs.GetInt("Red").ToString();
+      dropsGreen.text = PlayerPrefs.GetInt("Green").ToString();
+      dropsBlue.text = PlayerPrefs.GetInt("Blue").ToString();
+      dropsCyan.text = PlayerPrefs.GetInt("Cyan").ToString();
+      dropsMagenta.text = PlayerPrefs.GetInt("Magenta").ToString();
+      dropsYellow.text = PlayerPrefs.GetInt("Yellow").ToString();
   }
 
   // Update is called once per frame
@@ -47,7 +40,7 @@ public class Player : MonoBehaviour
       transform.parent = collision.transform;
     }
   }
-
+  
   //MovingPlatformEnd
   private void OnCollisionExit2D(Collision2D collision)
   {
@@ -56,9 +49,9 @@ public class Player : MonoBehaviour
       transform.parent = null;
     }
   }
-
+  
   //count Drops
-  private void OnTriggerEnter2D(Collider2D collision)
+  private void OnTriggerEnter2D(Collider2D collision) 
   {
     switch (collision.gameObject.tag)
     {
@@ -85,41 +78,8 @@ public class Player : MonoBehaviour
       case "DropYellow":
         PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter);
         Destroy(collision.gameObject);
-        break;
+        break;        
     }
 
-  }
-
-  void Hurt(Collision2D other)
-  {
-    Debug.Log(health);
-    health--;
-
-    if (health <= 0)
-    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    else
-    {
-      StartCoroutine(HurtBlinker(invincible, other));
-    }
-  }
-
-  private void OnCollisionEnter2D(Collision2D collision)
-  {
-    if (collision.gameObject.tag == "Green" || collision.gameObject.tag == "Enemy")
-    {
-      Hurt(collision);
-      Debug.Log("Getroffen");
-    }
-  }
-
-  IEnumerator HurtBlinker(float hurtTime, Collision2D other)
-  {
-    Physics2D.IgnoreLayerCollision(0, 8);
-    this.GetComponent<Animator>().SetLayerWeight(1, 1);
-    yield return new WaitForSeconds(hurtTime);
-    this.GetComponent<Animator>().SetLayerWeight(1, 0);
-    Physics2D.IgnoreLayerCollision(0, 8, false);
   }
 }

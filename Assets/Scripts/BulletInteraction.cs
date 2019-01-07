@@ -33,5 +33,4 @@ public class BulletInteraction : MonoBehaviour {
     }
 
   }
-
 }

@@ -6,22 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class CollisionDiablo : MonoBehaviour
 {
-  //void OnCollisionEnter2D(Collision2D other)
-  //{
-  //  if (other.gameObject.tag == "Player")
-  //  {
-  //    Debug.Log("Stell dich doch nicht so blöd an!");
-  //    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-  //  }
+  void OnCollisionEnter2D(Collision2D other)
+  {
+    if (other.gameObject.tag == "Player")
+    {
+      Debug.Log("Stell dich doch nicht so blöd an!");
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
-  //  if (other.gameObject.tag == "Green")
-  //  {
-  //    Debug.Log("Grün hat getroffen!");
-  //    GetComponent<Renderer>().material.color = Color.green;
-  //    this.tag = "Green";
-  //    Destroy(other.gameObject);
-  //  }
+    if (other.gameObject.tag == "Green")
+    {
+      Debug.Log("Grün hat getroffen!");
+      GetComponent<Renderer>().material.color = Color.green;
+      Destroy(other.gameObject);
+    }
 
-  //}
-  
+  }
 }

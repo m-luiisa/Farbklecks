@@ -15,7 +15,6 @@ TagManager:
   - Magenta
   - Cyan
   - Yellow
-  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -25,8 +24,8 @@ TagManager:
   - UI
   - 
   - 
-  - Enemy
-  - Ground
+  - 
+  - 
   - 
   - 
   - 
