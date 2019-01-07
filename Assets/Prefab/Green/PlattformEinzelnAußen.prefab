@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212417433830763308}
   - component: {fileID: 61845327001396022}
   - component: {fileID: 114490430996543256}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "PlattformEinzelnAu\xDFen"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,6 +82,10 @@ MonoBehaviour:
   clone: {fileID: 0}
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
+  redGround: {fileID: 0}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!212 &212417433830763308
 SpriteRenderer:
   m_ObjectHideFlags: 1

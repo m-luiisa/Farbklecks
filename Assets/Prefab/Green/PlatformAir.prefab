@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212408236903566100}
   - component: {fileID: 61169770525578346}
   - component: {fileID: 114596927468814136}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "PlattformAu\xDFenBoden (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 212830066573530126}
   - component: {fileID: 61030903070445746}
   - component: {fileID: 114411278886159982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "PlattformAu\xDFenBoden"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,6 +168,10 @@ MonoBehaviour:
   clone: {fileID: 0}
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
+  redGround: {fileID: 0}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!114 &114596927468814136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -183,6 +187,10 @@ MonoBehaviour:
   clone: {fileID: 0}
   greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
     type: 2}
+  redGround: {fileID: 0}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!212 &212408236903566100
 SpriteRenderer:
   m_ObjectHideFlags: 1
