@@ -9,4 +9,9 @@ public class ButtonMenu : MonoBehaviour {
   {
     SceneManager.LoadScene("World");
   }
+
+  public void ClickAgain()
+  {
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+  }
 }

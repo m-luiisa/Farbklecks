@@ -99,7 +99,7 @@ public class Player : MonoBehaviour
 
     if (health <= 0)
     {
-      SceneManager.LoadScene("MenuDeath");
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     else
     {
