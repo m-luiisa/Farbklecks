@@ -11,6 +11,8 @@ public class Movement : MonoBehaviour
   public float length;
   float start;
   float end;
+  public int rotation = 180;
+  bool towardsPlayer;
 
 
 
@@ -27,13 +29,14 @@ public class Movement : MonoBehaviour
   // Update is called once per frame
   void FixedUpdate()
   {
+    UpdateMovement();
     //Debug.Log(myTrans.position.x);
     //Debug.Log(end);
     
     if (myTrans.position.x < end || myTrans.position.x > start)
     {
       Vector3 currRot = myTrans.eulerAngles;
-      currRot.y += 180;
+      currRot.y += rotation;
       myTrans.eulerAngles = currRot;
       //Debug.Log("CHANGED");
     }
@@ -43,4 +46,11 @@ public class Movement : MonoBehaviour
     myBody.velocity = myVel;
 
   }
+
+  void UpdateMovement()
+  {
+    end = start - length;
+  }
+
+
 }

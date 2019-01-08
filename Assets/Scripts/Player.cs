@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
         break;
       case "DropGreen":
         PlayerPrefs.SetInt("Green", PlayerPrefs.GetInt("Green") + counter);
+        PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") + counter);       //Testzwecke
         Destroy(collision.gameObject);
         break;
       case "DropBlue":
@@ -105,7 +106,7 @@ public class Player : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-    if (collision.gameObject.tag == "Green" || collision.gameObject.tag == "Enemy")
+    if (collision.gameObject.tag == "GreenGround" || collision.gameObject.tag == "Enemy")
     {
       Hurt(collision);
       Debug.Log("Getroffen");

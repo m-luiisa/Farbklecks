@@ -16,6 +16,7 @@ TagManager:
   - Cyan
   - Yellow
   - Enemy
+  - RedEnemy
   layers:
   - Default
   - TransparentFX
