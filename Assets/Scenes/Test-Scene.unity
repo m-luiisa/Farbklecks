@@ -156,9 +156,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &89833652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 2146755502}
+--- !u!114 &89833656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89833652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &121190911
 Prefab:
   m_ObjectHideFlags: 0
@@ -202,9 +230,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &228017956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 236769743}
+--- !u!114 &228017960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228017956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &236769743
 Prefab:
   m_ObjectHideFlags: 0
@@ -248,9 +304,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &263132733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 491402161}
+--- !u!114 &263132737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 263132733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &331192931
 Prefab:
   m_ObjectHideFlags: 0
@@ -290,9 +374,37 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &338676181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1624892225}
+--- !u!114 &338676185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 338676181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &482320697
 Prefab:
   m_ObjectHideFlags: 0
@@ -335,6 +447,10 @@ Prefab:
     - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
       propertyPath: m_Name
       value: PlatformMiddle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
@@ -382,9 +498,80 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &501877680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1299441637}
+--- !u!114 &501877684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 501877680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &532572573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 331192931}
+--- !u!114 &532572577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 532572573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &572495482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500585124157338, guid: fb1ed166682000c459d59aae279de8e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1233123971}
+--- !u!114 &572495483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 572495482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50952666596b924095bf5fb0115f2f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  length: 3
+  rotation: 180
 --- !u!1001 &588345080
 Prefab:
   m_ObjectHideFlags: 0
@@ -428,54 +615,61 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &657305633
-Prefab:
+--- !u!1 &601820592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1649410998}
+--- !u!114 &601820596
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -3.1469479
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -3.3024654
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.07685876
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4147764567881302, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 95128980580414024, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-    - {fileID: 95176468050017694, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-    - {fileID: 95328513395159430, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-  m_SourcePrefab: {fileID: 100100000, guid: 11305d9fdbc87544ca54b9696724bd4b, type: 2}
-  m_IsPrefabAsset: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601820592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &612045450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1730783762}
+--- !u!114 &612045454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612045450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &724749053
 Prefab:
   m_ObjectHideFlags: 0
@@ -519,9 +713,61 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &726798650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1671552577}
+--- !u!114 &726798654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 726798650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &730837554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1134753307}
+--- !u!114 &730837558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 730837554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &761950074
 Prefab:
   m_ObjectHideFlags: 0
@@ -564,6 +810,10 @@ Prefab:
     - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
       propertyPath: m_Name
       value: PlatformMiddle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
@@ -611,9 +861,85 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &824046125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1499370819}
+--- !u!114 &824046129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824046125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &875776232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 121190911}
+--- !u!114 &875776236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875776232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &922176621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1243501671724726, guid: 271fb3e2398694840bbd1a3e146ae832,
+    type: 2}
+  m_PrefabInternal: {fileID: 1663194523}
+--- !u!114 &922176625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 922176621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &979463879
 Prefab:
   m_ObjectHideFlags: 0
@@ -657,9 +983,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1000611257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1896891191}
+--- !u!114 &1000611261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000611257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1011982526
 Prefab:
   m_ObjectHideFlags: 0
@@ -699,9 +1053,37 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1782522847572266, guid: c6d2f988923381a40bb7ec47102e8cdc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d2f988923381a40bb7ec47102e8cdc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1108047177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1376224656}
+--- !u!114 &1108047181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1108047177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1 &1119433909
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +1204,10 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
@@ -868,9 +1254,114 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1210121252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 761950074}
+--- !u!114 &1210121256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210121252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1001 &1233123971
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.16189861
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.8762307
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.07685876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.0026179885
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999966
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994920225287070, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114881306584369220, guid: fb1ed166682000c459d59aae279de8e2,
+        type: 2}
+      propertyPath: length
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114881306584369220, guid: fb1ed166682000c459d59aae279de8e2,
+        type: 2}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114881306584369220, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: fb1ed166682000c459d59aae279de8e2, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &1253019548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1139390172}
+--- !u!114 &1253019552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1253019548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1299441637
 Prefab:
   m_ObjectHideFlags: 0
@@ -914,9 +1405,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1367149221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 814963821}
+--- !u!114 &1367149225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1367149221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1376224656
 Prefab:
   m_ObjectHideFlags: 0
@@ -960,9 +1479,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1393751750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 724749053}
+--- !u!114 &1393751754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1393751750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1412140114
 Prefab:
   m_ObjectHideFlags: 0
@@ -1002,34 +1549,42 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4046512256410092, guid: 77092702f8ef5084eae20ca3225270ba, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 114485051019350784, guid: 77092702f8ef5084eae20ca3225270ba,
+        type: 2}
+      propertyPath: health
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77092702f8ef5084eae20ca3225270ba, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1440683597 stripped
+--- !u!1 &1473149275 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1087238650689830, guid: 11305d9fdbc87544ca54b9696724bd4b,
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
     type: 2}
-  m_PrefabInternal: {fileID: 657305633}
---- !u!50 &1440683598
-Rigidbody2D:
-  serializedVersion: 4
+  m_PrefabInternal: {fileID: 1970632803}
+--- !u!114 &1473149279
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1440683597}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_GameObject: {fileID: 1473149275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1499370819
 Prefab:
   m_ObjectHideFlags: 0
@@ -1072,6 +1627,10 @@ Prefab:
     - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
       propertyPath: m_Name
       value: PlatformMiddle (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
@@ -1119,6 +1678,10 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
@@ -1165,6 +1728,10 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
@@ -1206,6 +1773,10 @@ Prefab:
     - target: {fileID: 4188759754905344, guid: 271fb3e2398694840bbd1a3e146ae832, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243501671724726, guid: 271fb3e2398694840bbd1a3e146ae832, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 271fb3e2398694840bbd1a3e146ae832, type: 2}
@@ -1253,6 +1824,10 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
@@ -1299,9 +1874,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1825641523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 482320697}
+--- !u!114 &1825641527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825641523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1829249530
 Prefab:
   m_ObjectHideFlags: 0
@@ -1345,9 +1948,61 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1882925933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 17706032}
+--- !u!114 &1882925937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882925933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &1884499054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 979463879}
+--- !u!114 &1884499058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884499054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1896891191
 Prefab:
   m_ObjectHideFlags: 0
@@ -1391,9 +2046,85 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1920856126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 2142839403}
+--- !u!114 &1920856130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920856126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &1949450493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1829249530}
+--- !u!114 &1949450497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1949450493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
+--- !u!1 &1966435038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1782522847572266, guid: c6d2f988923381a40bb7ec47102e8cdc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1011982526}
+--- !u!114 &1966435042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966435038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &1970632803
 Prefab:
   m_ObjectHideFlags: 0
@@ -1437,9 +2168,37 @@ Prefab:
       propertyPath: m_Name
       value: PlatformMiddle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &2049840043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc,
+    type: 2}
+  m_PrefabInternal: {fileID: 588345080}
+--- !u!114 &2049840047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2049840043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 0}
+  cyanGround: {fileID: 0}
+  magentaGround: {fileID: 0}
 --- !u!1001 &2142839403
 Prefab:
   m_ObjectHideFlags: 0
@@ -1482,6 +2241,10 @@ Prefab:
     - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
       propertyPath: m_Name
       value: PlatformMiddle (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
@@ -1528,6 +2291,10 @@ Prefab:
     - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
       propertyPath: m_Name
       value: PlatformMiddle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025130578325758, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d60076f9a2a2a4f977a86086c421bc, type: 2}

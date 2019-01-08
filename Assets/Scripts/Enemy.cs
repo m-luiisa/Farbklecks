@@ -6,25 +6,27 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
+  public enum Typ {Default, Green, Red};
+  public Typ typ;
+
+  private void Start()
+  {
+    typ = Typ.Default;
+  }
+
   void OnCollisionEnter2D(Collision2D other)
   {
-    //if (other.gameObject.tag == "Player")
-    //{
-    //  Debug.Log("Stell dich doch nicht so blöd an!");
-    //  //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    //}
-
     if (other.gameObject.tag == "Green")
     {
       Debug.Log("Grün hat getroffen!");
       GetComponent<Renderer>().material.color = Color.green;
-      //this.gameObject.tag = "Green";
+      typ = Typ.Green;
       Destroy(other.gameObject);
-      StartCoroutine(Die(2));
     }
 
     if(other.gameObject.tag == "Red")
     {
+      typ = Typ.Red;
       Destroy(other.gameObject);
       Debug.Log("Rot hat getroffen");
 
@@ -49,10 +51,9 @@ public class Enemy : MonoBehaviour
     }
   }
 
-  IEnumerator Die(float seconds)
+  public void Die()
   {
-    Debug.Log("DIE");
-    yield return new WaitForSeconds(seconds);
-    Destroy(gameObject);
+    Destroy(this.gameObject);
   }
+  
 }
