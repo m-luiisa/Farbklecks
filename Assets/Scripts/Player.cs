@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
       case "DropGreen":
         PlayerPrefs.SetInt("Green", PlayerPrefs.GetInt("Green") + counter);
         PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") + counter);       //Testzwecke
+        PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter); //Testzwecked
         Destroy(collision.gameObject);
         break;
       case "DropBlue":
@@ -95,7 +96,7 @@ public class Player : MonoBehaviour
     health -= dmg;
 
     Debug.Log(health);
-    
+
     if (health <= 0)
     {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -105,24 +106,27 @@ public class Player : MonoBehaviour
       StartCoroutine(HurtBlinker(invincible));
     }
   }
-  
+
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-    Enemy.Typ enemyTyp = collision.gameObject.GetComponent<Enemy>().typ;
-
-    if (enemyTyp == Enemy.Typ.Default || enemyTyp == Enemy.Typ.Red)
+    if (collision.gameObject.tag == "Enemy")
     {
-      Hurt(1);
+      Enemy.Typ enemyTyp = collision.gameObject.GetComponent<Enemy>().typ;
+
+      if (enemyTyp == Enemy.Typ.Default || enemyTyp == Enemy.Typ.Red)
+      {
+        Hurt(1);
+      }
+
+      if (collision.gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Green)
+      {
+        Hurt(3);
+      }
     }
 
-    if(collision.gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Green)
-    {
-      Hurt(3);
-    }
-    
   }
-  
+
 
   IEnumerator HurtBlinker(float hurtTime)
   {

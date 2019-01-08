@@ -11,6 +11,7 @@ public class BulletInteraction : MonoBehaviour {
   public GameObject blueGround;
   public GameObject cyanGround;
   public GameObject magentaGround;
+  public GameObject yellowGround;
  
   void OnCollisionEnter2D(Collision2D other)
   {
@@ -27,9 +28,16 @@ public class BulletInteraction : MonoBehaviour {
     {
       Destroy(other.gameObject);
       Debug.Log("Red hat auf Boden getroffen!");
-      //GetComponent<Renderer>().material.color = Color.green;
       spawn = this.transform;
       clone = Instantiate(redGround, spawn.position, spawn.rotation);
+    }
+
+    if (other.gameObject.tag == "Yellow")
+    {
+      Destroy(other.gameObject);
+      Debug.Log("Yellow hat auf Boden getroffen!");
+      spawn = this.transform;
+      clone = Instantiate(yellowGround, spawn.position, spawn.rotation);
     }
 
   }

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-  public enum Typ {Default, Green, Red};
+  public enum Typ {Default, Green, Red, Yellow, Magenta, Cyan, Blue};
   public Typ typ;
 
   private void Start()

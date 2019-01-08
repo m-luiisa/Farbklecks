@@ -14,9 +14,7 @@ public class Movement : MonoBehaviour
   public int rotation = 180;
   bool towardsPlayer;
   Transform target;
-
-
-
+  
   // Use this for initialization
   void Start()
   {
@@ -35,6 +33,7 @@ public class Movement : MonoBehaviour
       UpdateMovement();
       //Debug.Log(myTrans.position.x);
       //Debug.Log(end);
+      Debug.Log(speed);
 
       if (myTrans.position.x < end ^ myTrans.position.x > start)
       {
