@@ -11,7 +11,7 @@ public class neustart : MonoBehaviour {
     if (other.tag== "Player")
     {
       Debug.Log("Stell dich doch nicht so blöd an!");
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      SceneManager.LoadScene("MenuDeath");
     }
   }
 }
