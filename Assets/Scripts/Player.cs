@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     dropsYellow.text = PlayerPrefs.GetInt("Yellow").ToString();
     health = 3;
     Physics2D.IgnoreLayerCollision(0, 8, false);
+    Physics2D.IgnoreLayerCollision(0, 10, false);
   }
 
   // Update is called once per frame
@@ -67,6 +68,7 @@ public class Player : MonoBehaviour
       case "DropGreen":
         PlayerPrefs.SetInt("Green", PlayerPrefs.GetInt("Green") + counter);
         PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") + counter);       //Testzwecke
+        PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter); //Testzwecked
         Destroy(collision.gameObject);
         break;
       case "DropBlue":
@@ -89,36 +91,51 @@ public class Player : MonoBehaviour
 
   }
 
-  void Hurt(Collision2D other)
+  public void Hurt(int dmg)
   {
-    health--;
+    health -= dmg;
+
     Debug.Log(health);
-    
+
     if (health <= 0)
     {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     else
     {
-      StartCoroutine(HurtBlinker(invincible, other));
+      StartCoroutine(HurtBlinker(invincible));
     }
   }
+
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-    if (collision.gameObject.tag == "GreenGround" || collision.gameObject.tag == "Enemy")
+    if (collision.gameObject.tag == "Enemy")
     {
-      Hurt(collision);
-      Debug.Log("Getroffen");
+      Enemy.Typ enemyTyp = collision.gameObject.GetComponent<Enemy>().typ;
+
+      if (enemyTyp == Enemy.Typ.Default || enemyTyp == Enemy.Typ.Red)
+      {
+        Hurt(1);
+      }
+
+      if (collision.gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Green)
+      {
+        Hurt(3);
+      }
     }
+
   }
 
-  IEnumerator HurtBlinker(float hurtTime, Collision2D other)
+
+  IEnumerator HurtBlinker(float hurtTime)
   {
     Physics2D.IgnoreLayerCollision(0, 8);
+    Physics2D.IgnoreLayerCollision(0, 10);
     this.GetComponent<Animator>().SetLayerWeight(1, 1);
     yield return new WaitForSeconds(hurtTime);
     this.GetComponent<Animator>().SetLayerWeight(1, 0);
     Physics2D.IgnoreLayerCollision(0, 8, false);
+    Physics2D.IgnoreLayerCollision(0, 10, false);
   }
 }
