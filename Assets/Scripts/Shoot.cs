@@ -28,7 +28,7 @@ public class Shoot : MonoBehaviour
   void Start()
   {
     bulletspawn = GameObject.Find("ShootSpawn").transform;
-    player = GameObject.Find("CharacterRobotBoy").transform;
+    player = GameObject.Find("CharacterNew").transform;
   }
 
   // Update is called once per frame

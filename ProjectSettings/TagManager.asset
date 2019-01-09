@@ -20,6 +20,20 @@ TagManager:
   - BlueGround
   - YellowGround
   - RedGround
+  - DropBlue
+  - DropCyan
+  - DoorCyan
+  - DoorRed
+  - DoorGreen
+  - DoorYellow
+  - DoorBlue
+  - DoorMagenta
+  - EndRed
+  - EndBlue
+  - EndGreen
+  - EndMagenta
+  - EndCyan
+  - EndYellow
   layers:
   - Default
   - TransparentFX

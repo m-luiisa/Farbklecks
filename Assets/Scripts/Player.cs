@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
   public Text dropsRed, dropsGreen, dropsBlue, dropsCyan, dropsMagenta, dropsYellow;
   public int counter = 3;
 
+  static public bool green, red, blue, cyan, magenta, yellow = false;
+
   //Health
   public int health;
   public float invincible = 0.8f;
@@ -25,6 +27,22 @@ public class Player : MonoBehaviour
     health = 3;
     Physics2D.IgnoreLayerCollision(0, 8, false);
     Physics2D.IgnoreLayerCollision(0, 10, false);
+
+    if (SceneManager.GetActiveScene().name == "World")
+    {
+      if (green == true)
+        GameObject.Find("FlagGreen").GetComponent<Renderer>().material.color = Color.green;
+      if (red == true)
+        GameObject.Find("FlagRed").GetComponent<Renderer>().material.color = Color.red;
+      if (blue == true)
+        GameObject.Find("FlagBlue").GetComponent<Renderer>().material.color = Color.blue;
+      if (cyan == true)
+        GameObject.Find("FlagCyan").GetComponent<Renderer>().material.color = Color.cyan;
+      if (magenta == true)
+        GameObject.Find("FlagMagenta").GetComponent<Renderer>().material.color = Color.magenta;
+      if (yellow == true)
+        GameObject.Find("FlagYellow").GetComponent<Renderer>().material.color = Color.yellow;
+    }
   }
 
   // Update is called once per frame
@@ -60,7 +78,7 @@ public class Player : MonoBehaviour
   private void OnTriggerEnter2D(Collider2D collision)
   {
     switch (collision.gameObject.tag)
-    {
+    { //countingDrops
       case "DropRed":
         PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") + counter);
         Destroy(collision.gameObject);
@@ -89,9 +107,59 @@ public class Player : MonoBehaviour
         PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter);
         Destroy(collision.gameObject);
         break;
-    }
 
+      //dye flags
+      case "EndRed":
+        red = true;
+        break;
+      case "EndBlue":
+        blue = true;
+        break;
+      case "EndGreen":
+        green = true;
+        break;
+      case "EndMagenta":
+        magenta = true;
+        break;
+      case "EndCyan":
+        cyan = true;
+        break;
+      case "EndYellow":
+        yellow = true;
+        break;
+    }    
   }
+
+ 
+  private void OnTriggerStay2D(Collider2D collision)
+  {
+    //Going to Level
+    if (Input.GetKeyDown(KeyCode.UpArrow))
+    {
+      switch (collision.gameObject.tag)
+      {
+        case "DoorGreen":
+          SceneManager.LoadScene("GreenLevel1");
+          break;
+        case "DoorRed":
+          SceneManager.LoadScene("RedLevel6");
+          break;
+        case "DoorBlue":
+          SceneManager.LoadScene("BlueLevel5");
+          break;
+        case "DoorCyan":
+          SceneManager.LoadScene("Cyan1");
+          break;
+        case "DoorYellow":
+          SceneManager.LoadScene("Yellow4");
+          break;
+        case "DoorMagenta":
+          SceneManager.LoadScene("MagentaLevel2");
+          break;
+      }
+    }
+  }
+
 
   public void Hurt(int dmg)
   {

@@ -2532,6 +2532,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114546082560849084, guid: 6b18e4ef23ef6a7479c3ee4c025931fa,
+        type: 2}
+      propertyPath: dropsRed
+      value: 
+      objectReference: {fileID: 511936859}
+    - target: {fileID: 114546082560849084, guid: 6b18e4ef23ef6a7479c3ee4c025931fa,
+        type: 2}
+      propertyPath: dropsGreen
+      value: 
+      objectReference: {fileID: 525409649}
+    - target: {fileID: 114546082560849084, guid: 6b18e4ef23ef6a7479c3ee4c025931fa,
+        type: 2}
+      propertyPath: dropsBlue
+      value: 
+      objectReference: {fileID: 1346929129}
+    - target: {fileID: 114546082560849084, guid: 6b18e4ef23ef6a7479c3ee4c025931fa,
+        type: 2}
+      propertyPath: dropsCyan
+      value: 
+      objectReference: {fileID: 1003666084}
+    - target: {fileID: 114546082560849084, guid: 6b18e4ef23ef6a7479c3ee4c025931fa,
+        type: 2}
+      propertyPath: dropsMagenta
+      value: 
+      objectReference: {fileID: 912916194}
+    - target: {fileID: 114546082560849084, guid: 6b18e4ef23ef6a7479c3ee4c025931fa,
+        type: 2}
+      propertyPath: dropsYellow
+      value: 
+      objectReference: {fileID: 2089840486}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b18e4ef23ef6a7479c3ee4c025931fa, type: 2}
   m_IsPrefabAsset: 0
