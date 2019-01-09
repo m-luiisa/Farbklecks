@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
       typ = Typ.Red;
       Destroy(other.gameObject);
       Debug.Log("Rot hat getroffen");
+      gameObject.layer = 0;
 
       if(GameObject.FindWithTag("Player").transform.position.x < transform.position.x && transform.eulerAngles.y == 180)
       {
@@ -65,6 +66,10 @@ public class Enemy : MonoBehaviour
       typ = Typ.Cyan;
     }
 
+    if (other.gameObject.tag == "RedEnemy")
+    {
+      Destroy(gameObject);
+    }
 
   }
 
