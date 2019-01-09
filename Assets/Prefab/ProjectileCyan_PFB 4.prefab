@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 212400719472989636}
   - component: {fileID: 50281494880216356}
   - component: {fileID: 61322301172230974}
-  - component: {fileID: 114359563777756714}
   m_Layer: 0
   m_Name: ProjectileCyan_PFB 4
   m_TagString: Cyan
@@ -86,20 +85,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.84, y: 0.8}
+  m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &114359563777756714
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1978358953493154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebdce26317c003649bdf8a726b6e1dad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  life: 2
 --- !u!212 &212400719472989636
 SpriteRenderer:
   m_ObjectHideFlags: 1

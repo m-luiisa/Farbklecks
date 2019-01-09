@@ -17,6 +17,9 @@ TagManager:
   - Yellow
   - Enemy
   - RedEnemy
+  - BlueGround
+  - YellowGround
+  - RedGround
   layers:
   - Default
   - TransparentFX

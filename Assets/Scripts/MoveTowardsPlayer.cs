@@ -17,7 +17,6 @@ public class MoveTowardsPlayer : MonoBehaviour {
 
   void Update()
   {
-
     target = GameObject.FindWithTag("Player").transform;
     Vector3 targetHeading = target.position - transform.position;
     Vector3 targetDirection = targetHeading.normalized;
@@ -30,11 +29,6 @@ public class MoveTowardsPlayer : MonoBehaviour {
     {
       enemyTransform.eulerAngles = new Vector3(0, 180, 0);
     }
-    
-    //move towards the player
-    //enemyTransform.position += enemyTransform.forward * speed * Time.deltaTime;
-
     transform.position += -transform.right * speed * Time.deltaTime;
-
   }
 }

@@ -7,11 +7,6 @@ public class BulletDestruction : MonoBehaviour {
     public float life = 2f;
 	// Use this for initialization
 	void Start () {
-        Destroy(gameObject, life);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        //Destroy(gameObject, life);
 	}
 }

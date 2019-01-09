@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityStandardAssets._2D;
 
 public class YellowGround : MonoBehaviour {
-  float speedPlayer;
   float speedEnemy;
 
 
@@ -12,7 +11,6 @@ public class YellowGround : MonoBehaviour {
   {
     if(collision.tag == "Player")
     {
-      speedPlayer = collision.GetComponent<PlatformerCharacter2D>().m_MaxSpeed;
       collision.GetComponent<PlatformerCharacter2D>().m_MaxSpeed = 2;
     }
     if(collision.tag == "Enemy")
@@ -27,7 +25,7 @@ public class YellowGround : MonoBehaviour {
     if (collision.tag == "Player")
     {
       Debug.Log("Speed wieder normal");
-      collision.GetComponent<PlatformerCharacter2D>().m_MaxSpeed = speedPlayer;
+      collision.GetComponent<PlatformerCharacter2D>().m_MaxSpeed = 10;
     }
     if (collision.tag == "Enemy")
     {

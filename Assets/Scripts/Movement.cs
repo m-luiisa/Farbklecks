@@ -33,7 +33,7 @@ public class Movement : MonoBehaviour
       UpdateMovement();
       //Debug.Log(myTrans.position.x);
       //Debug.Log(end);
-      Debug.Log(speed);
+      //Debug.Log(speed);
 
       if (myTrans.position.x < end ^ myTrans.position.x > start)
       {
@@ -65,7 +65,18 @@ public class Movement : MonoBehaviour
 
       transform.position += -transform.right * speed * Time.deltaTime;
     }
+    else if(gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Cyan)
+    {
+      StartCoroutine(Sleep(4));
+    }
     
+  }
+
+  IEnumerator Sleep(float seconds)
+  {
+    yield return new WaitForSeconds(seconds);
+    gameObject.GetComponent<Enemy>().typ = Enemy.Typ.Default;
+    GetComponent<Renderer>().material.color = Color.white;
   }
 
   void UpdateMovement()

@@ -12,33 +12,57 @@ public class BulletInteraction : MonoBehaviour {
   public GameObject cyanGround;
   public GameObject magentaGround;
   public GameObject yellowGround;
+
+  bool alreadyUsed = false;
  
   void OnCollisionEnter2D(Collision2D other)
   {
-    if (other.gameObject.tag == "Green")
+    if (!alreadyUsed)
     {
-      Destroy(other.gameObject);
-      Debug.Log("Grün hat auf Boden getroffen!");
-      //GetComponent<Renderer>().material.color = Color.green;
-      spawn = this.transform;
-      clone = Instantiate(greenGround, spawn.position + new Vector3(0,0.25f,0), spawn.rotation);
-    }
+      if (other.gameObject.tag == "Green")
+      {
+        Destroy(other.gameObject);
+        Debug.Log("Green hat auf Boden getroffen!");
+        spawn = this.transform;
+        clone = Instantiate(greenGround, spawn.position + new Vector3(0, 0.25f, 0), spawn.rotation);
+        alreadyUsed = true;
+      }
 
-    if (other.gameObject.tag == "Red")
-    {
-      Destroy(other.gameObject);
-      Debug.Log("Red hat auf Boden getroffen!");
-      spawn = this.transform;
-      clone = Instantiate(redGround, spawn.position, spawn.rotation);
-    }
+      if (other.gameObject.tag == "Red")
+      {
+        Destroy(other.gameObject);
+        Debug.Log("Red hat auf Boden getroffen!");
+        spawn = this.transform;
+        clone = Instantiate(redGround, spawn.position + new Vector3(0, 0.25f, 0), spawn.rotation);
+        alreadyUsed = true;
+      }
 
-    if (other.gameObject.tag == "Yellow")
-    {
-      Destroy(other.gameObject);
-      Debug.Log("Yellow hat auf Boden getroffen!");
-      spawn = this.transform;
-      clone = Instantiate(yellowGround, spawn.position, spawn.rotation);
-    }
+      if (other.gameObject.tag == "Yellow")
+      {
+        Destroy(other.gameObject);
+        Debug.Log("Yellow hat auf Boden getroffen!");
+        spawn = this.transform;
+        clone = Instantiate(yellowGround, spawn.position + new Vector3(0, 0.25f, 0), spawn.rotation);
+        alreadyUsed = true;
+      }
 
+      if (other.gameObject.tag == "Cyan")
+      {
+        Destroy(other.gameObject);
+        Debug.Log("Cyan hat auf Boden getroffen!");
+        spawn = this.transform;
+        clone = Instantiate(cyanGround, spawn.position + new Vector3(0, 0.25f, 0), spawn.rotation);
+        GetComponent<SpriteRenderer>().color = Color.cyan;
+        Destroy(gameObject.GetComponent<BoxCollider2D>());
+      }
+
+      if (other.gameObject.tag == "Blue")
+      {
+        Destroy(other.gameObject);
+        Debug.Log("Blue hat auf Boden getroffen!");
+        spawn = this.transform;
+        clone = Instantiate(blueGround, spawn.position + new Vector3(0, 0.25f, 0), spawn.rotation);
+      }
+    }
   }
 }

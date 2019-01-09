@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4162525331168150}
   - component: {fileID: 212172679977458484}
   - component: {fileID: 61797404791386642}
-  - component: {fileID: 114703420127826836}
+  - component: {fileID: 114203020664099030}
   m_Layer: 0
   m_Name: YellowBlob
-  m_TagString: Untagged
+  m_TagString: YellowGround
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,7 +67,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114703420127826836
+--- !u!114 &114203020664099030
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1680680615796614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab6bf05afc027bd428e727a4f4884b44, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c6fbac32eef6b940b7963d597cc5113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212172679977458484

@@ -68,7 +68,9 @@ public class Player : MonoBehaviour
       case "DropGreen":
         PlayerPrefs.SetInt("Green", PlayerPrefs.GetInt("Green") + counter);
         PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") + counter);       //Testzwecke
-        PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter); //Testzwecked
+        PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter); //Testzwecke
+        PlayerPrefs.SetInt("Cyan", PlayerPrefs.GetInt("Cyan") + counter);     //Testzwecke
+        PlayerPrefs.SetInt("Blue", PlayerPrefs.GetInt("Blue") + counter);     //Testzwecke
         Destroy(collision.gameObject);
         break;
       case "DropBlue":

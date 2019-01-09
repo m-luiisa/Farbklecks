@@ -178,6 +178,7 @@ public class Shoot : MonoBehaviour
     var length = Mathf.Sqrt(direction.x * direction.x + direction.y * direction.y + direction.z * direction.z);
     direction /= length;
     clone.AddForce(direction * shootSpeed);
+    Destroy(clone.gameObject, 2f);
     
   }
 }

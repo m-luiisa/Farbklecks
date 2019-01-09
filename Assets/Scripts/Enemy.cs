@@ -44,11 +44,28 @@ public class Enemy : MonoBehaviour
         currRot.y += 180;
         transform.eulerAngles = currRot;
       }
-
+      
       GetComponent<Movement>().rotation = 0;
       tag = "RedEnemy";
       GetComponent<Renderer>().material.color = Color.red;
     }
+
+    if (other.gameObject.tag == "Magenta")
+    {
+      Debug.Log("Magenta hat getroffen!");
+      Destroy(other.gameObject);
+      transform.localScale = new Vector3(1.5f, 1.5f, 1);
+    }
+
+    if (other.gameObject.tag == "Cyan")
+    {
+      Debug.Log("Cyan hat getroffen!");
+      Destroy(other.gameObject);
+      GetComponent<Renderer>().material.color = Color.cyan;
+      typ = Typ.Cyan;
+    }
+
+
   }
 
   public void Die()
