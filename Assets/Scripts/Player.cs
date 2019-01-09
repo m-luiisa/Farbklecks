@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
   // Use this for initialization
   public Text dropsRed, dropsGreen, dropsBlue, dropsCyan, dropsMagenta, dropsYellow;
-  public int counter = 3;
+  int counter = 2;
 
   static public bool green, red, blue, cyan, magenta, yellow = false;
 
@@ -85,10 +85,6 @@ public class Player : MonoBehaviour
         break;
       case "DropGreen":
         PlayerPrefs.SetInt("Green", PlayerPrefs.GetInt("Green") + counter);
-        PlayerPrefs.SetInt("Red", PlayerPrefs.GetInt("Red") + counter);       //Testzwecke
-        PlayerPrefs.SetInt("Yellow", PlayerPrefs.GetInt("Yellow") + counter); //Testzwecke
-        PlayerPrefs.SetInt("Cyan", PlayerPrefs.GetInt("Cyan") + counter);     //Testzwecke
-        PlayerPrefs.SetInt("Blue", PlayerPrefs.GetInt("Blue") + counter);     //Testzwecke
         Destroy(collision.gameObject);
         break;
       case "DropBlue":

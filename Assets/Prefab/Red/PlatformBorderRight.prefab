@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4560521896189858}
   - component: {fileID: 212378011738069468}
   - component: {fileID: 61866370366268796}
-  - component: {fileID: 114159810043180748}
-  m_Layer: 0
+  - component: {fileID: 114324436313564636}
+  m_Layer: 9
   m_Name: PlatformBorderRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,7 +67,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.89, y: 0.77}
   m_EdgeRadius: 0
---- !u!114 &114159810043180748
+--- !u!114 &114324436313564636
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80,12 +80,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawn: {fileID: 0}
   clone: {fileID: 0}
-  greenGround: {fileID: 0}
-  redGround: {fileID: 0}
-  blueGround: {fileID: 0}
-  cyanGround: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 1299221370233344, guid: d90550b477e69ce45951cadeb051ce2e, type: 2}
+  cyanGround: {fileID: 1367978720951644, guid: e40d33ffae53c5c4292c1785df0c007d, type: 2}
   magentaGround: {fileID: 0}
-  yellowGround: {fileID: 0}
+  yellowGround: {fileID: 1680680615796614, guid: 9e02c7e9f5e916344af3ece632bd4415,
+    type: 2}
 --- !u!212 &212378011738069468
 SpriteRenderer:
   m_ObjectHideFlags: 1
