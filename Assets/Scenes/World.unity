@@ -394,7 +394,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.68, y: 1.21}
+  m_Size: {x: 1.59, y: 2.14}
   m_EdgeRadius: 0
 --- !u!1 &183865633
 GameObject:
@@ -495,7 +495,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.75, y: 1.27}
+  m_Size: {x: 1.88, y: 2.27}
   m_EdgeRadius: 0
 --- !u!1 &234478343
 GameObject:
@@ -863,7 +863,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.78, y: 1.32}
+  m_Size: {x: 1.44, y: 2.07}
   m_EdgeRadius: 0
 --- !u!1 &431298656
 GameObject:
@@ -1189,7 +1189,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.98}
+  m_Size: {x: 1.44, y: 2.06}
   m_EdgeRadius: 0
 --- !u!1 &644201196
 GameObject:
@@ -1634,13 +1634,6 @@ MonoBehaviour:
   dropsCyan: {fileID: 736116479}
   dropsMagenta: {fileID: 736116479}
   dropsYellow: {fileID: 736116479}
-  counter: 3
-  green: 0
-  red: 0
-  blue: 0
-  cyan: 0
-  magenta: 0
-  yellow: 0
   health: 3
   invincible: 0.8
 --- !u!61 &905507257
@@ -2122,7 +2115,7 @@ Transform:
   m_GameObject: {fileID: 1229766149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.05, y: -2.313095, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1375, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -2150,7 +2143,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.72, y: 1.17}
+  m_Size: {x: 1.62, y: 1.87}
   m_EdgeRadius: 0
 --- !u!1 &1395245644
 GameObject:
@@ -2251,7 +2244,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.77, y: 1.38}
+  m_Size: {x: 1.47, y: 2.13}
   m_EdgeRadius: 0
 --- !u!1 &1727184404
 GameObject:

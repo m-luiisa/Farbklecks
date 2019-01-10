@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 4460492471607348}
   - component: {fileID: 212296980639237166}
   - component: {fileID: 61677787587624854}
-  m_Layer: 0
+  - component: {fileID: 114126665570698654}
+  m_Layer: 9
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +39,7 @@ GameObject:
   - component: {fileID: 4294436975446894}
   - component: {fileID: 212043707080517574}
   - component: {fileID: 61106452314735510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "PlattformF\xFCllung"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,6 +123,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.78, y: 1.15}
   m_EdgeRadius: 0
+--- !u!114 &114126665570698654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109265116901118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d21a2ae116a2f48813ca2e3f344ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn: {fileID: 0}
+  clone: {fileID: 0}
+  greenGround: {fileID: 1845109391529768, guid: 088de2d381c12274e8ea7eb838c2409a,
+    type: 2}
+  redGround: {fileID: 1660733442210752, guid: 40adf69156cdeb147b92b44d15967867, type: 2}
+  blueGround: {fileID: 1299221370233344, guid: d90550b477e69ce45951cadeb051ce2e, type: 2}
+  cyanGround: {fileID: 1367978720951644, guid: e40d33ffae53c5c4292c1785df0c007d, type: 2}
+  magentaGround: {fileID: 0}
+  yellowGround: {fileID: 1680680615796614, guid: 9e02c7e9f5e916344af3ece632bd4415,
+    type: 2}
 --- !u!212 &212043707080517574
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4319009975501518}
   - component: {fileID: 212579356348994184}
   - component: {fileID: 61779582331282806}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlatformLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4085009767757616}
   - component: {fileID: 212333510452136496}
   - component: {fileID: 61519092738732234}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "PlattformF\xFCllung"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

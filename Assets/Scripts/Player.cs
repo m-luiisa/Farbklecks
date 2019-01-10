@@ -54,6 +54,15 @@ public class Player : MonoBehaviour
     dropsCyan.text = PlayerPrefs.GetInt("Cyan").ToString();
     dropsMagenta.text = PlayerPrefs.GetInt("Magenta").ToString();
     dropsYellow.text = PlayerPrefs.GetInt("Yellow").ToString();
+
+    if (Input.GetKeyDown(KeyCode.Escape))
+    {
+      if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName("World"))
+      {
+        Debug.Log("Spiel wird beendet");
+        Application.Quit();
+      }
+    }
   }
 
   //MovingPlatformStart 
@@ -62,6 +71,31 @@ public class Player : MonoBehaviour
     if (collision.gameObject.tag == "MovingPlatform")
     {
       transform.parent = collision.transform;
+    }
+
+    if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+    {
+      switch (collision.gameObject.tag)
+      {
+        case "DoorGreen":
+          SceneManager.LoadScene("GreenLevel1");
+          break;
+        case "DoorRed":
+          SceneManager.LoadScene("RedLevel6");
+          break;
+        case "DoorBlue":
+          SceneManager.LoadScene("BlueLevel5");
+          break;
+        case "DoorCyan":
+          SceneManager.LoadScene("Cyan1");
+          break;
+        case "DoorYellow":
+          SceneManager.LoadScene("Yellow4");
+          break;
+        case "DoorMagenta":
+          SceneManager.LoadScene("MagentaLevel2");
+          break;
+      }
     }
   }
 
@@ -123,14 +157,14 @@ public class Player : MonoBehaviour
       case "EndYellow":
         yellow = true;
         break;
-    }    
+    }
   }
 
- 
+
   private void OnTriggerStay2D(Collider2D collision)
   {
     //Going to Level
-    if (Input.GetKeyDown(KeyCode.UpArrow))
+    if (Input.GetKeyDown(KeyCode.UpArrow)|| Input.GetKeyDown(KeyCode.UpArrow))
     {
       switch (collision.gameObject.tag)
       {
@@ -180,14 +214,13 @@ public class Player : MonoBehaviour
     {
       Enemy.Typ enemyTyp = collision.gameObject.GetComponent<Enemy>().typ;
 
-      if (enemyTyp == Enemy.Typ.Default || enemyTyp == Enemy.Typ.Red)
-      {
-        Hurt(1);
-      }
-
-      if (collision.gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Green)
+      if (enemyTyp == Enemy.Typ.Green)
       {
         Hurt(3);
+      }
+      else
+      {
+        Hurt(1);
       }
     }
 

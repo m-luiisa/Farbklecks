@@ -49,6 +49,7 @@ public class Enemy : MonoBehaviour
       GetComponent<Movement>().rotation = 0;
       tag = "RedEnemy";
       GetComponent<Renderer>().material.color = Color.red;
+      Die(10);
     }
 
     if (other.gameObject.tag == "Magenta")
@@ -75,7 +76,12 @@ public class Enemy : MonoBehaviour
 
   public void Die()
   {
-    Destroy(this.gameObject);
+    Destroy(gameObject);
+  }
+
+  public void Die(float seconds)
+  {
+    Destroy(gameObject, seconds);
   }
   
 }

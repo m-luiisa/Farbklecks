@@ -65,7 +65,7 @@ public class Ground : MonoBehaviour {
 
     if(tag == "BlueGround")
     {
-      collision.GetComponent<PlatformerCharacter2D>().m_JumpForce = 600;
+      collision.GetComponent<PlatformerCharacter2D>().m_JumpForce = 400;
     }
   }
 }

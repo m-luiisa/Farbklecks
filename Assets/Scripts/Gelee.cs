@@ -3,26 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Gelee : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-  private void OnTriggerEnter2D(Collider2D collision)
+  
+  private void OnTriggerStay2D(Collider2D collision)
   {
-    collision.GetComponent<Rigidbody2D>().mass = 0;
-    collision.GetComponent<Rigidbody2D>().gravityScale = -1;
+    //collision.GetComponent<Rigidbody2D>().mass = 0;
+    collision.GetComponent<Rigidbody2D>().gravityScale = 0;
+    collision.GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 1, 0) * 2);
+
   }
   private void OnTriggerExit2D(Collider2D collision)
   {
-    collision.GetComponent<Rigidbody2D>().mass = 1;
+    //  collision.GetComponent<Rigidbody2D>().mass = 1;
     collision.GetComponent<Rigidbody2D>().gravityScale = 3;
-  }
 
+  }
 }
