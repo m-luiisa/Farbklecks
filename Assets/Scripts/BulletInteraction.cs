@@ -13,12 +13,15 @@ public class BulletInteraction : MonoBehaviour {
   public GameObject magentaGround;
   public GameObject yellowGround;
 
+  //used for not instancing a second layer of color on the ground
   bool alreadyUsed = false;
  
   void OnCollisionEnter2D(Collision2D other)
   {
     if (!alreadyUsed)
     {
+
+      //checks for every color and creates the depending color
       if (other.gameObject.tag == "Green")
       {
         Destroy(other.gameObject);

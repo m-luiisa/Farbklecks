@@ -8,6 +8,7 @@ public class Shoot : MonoBehaviour
   public Transform bulletspawn;
   public Transform player;
 
+  //all bullets
   public Rigidbody2D bulletGreen;
   public Rigidbody2D bulletRed;
   public Rigidbody2D bulletBlue;
@@ -34,6 +35,7 @@ public class Shoot : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
+    //when tab is pushed, change the actual color and move the indicator (beck when at the end)
     if (Input.GetKeyDown(KeyCode.Tab))
     {
       ActualColor = (ActualColor + 1) % 6;
@@ -53,6 +55,7 @@ public class Shoot : MonoBehaviour
       }
     }
 
+    //shooting
     if (Input.GetButtonDown("Fire1"))
     {
       switch (ActualColor)
@@ -79,6 +82,7 @@ public class Shoot : MonoBehaviour
     }
   }
   
+  //shoots the different colors
   void ShootGreen()
   {
     if (PlayerPrefs.GetInt("Green") == 0)
@@ -110,6 +114,7 @@ public class Shoot : MonoBehaviour
       Debug.Log("Player bullets: " + PlayerPrefs.GetInt("Red"));
     }
   }
+
   void ShootCyan()
   {
     if (PlayerPrefs.GetInt("Cyan") == 0)
@@ -171,6 +176,7 @@ public class Shoot : MonoBehaviour
     }
   }
 
+  //sets the direction of shooting to the mouse direction for aiming and set the vector to its unit vector and destory the bullet when it hit nothing
   void ExecuteShoot()
   {
     var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

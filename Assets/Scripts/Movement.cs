@@ -28,26 +28,22 @@ public class Movement : MonoBehaviour
   // Update is called once per frame
   void FixedUpdate()
   {
-    if(gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Default || gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Green)
+    if(gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Default || gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Green) //sets the setting for normal walking of enemies
     {
       UpdateMovement();
-      //Debug.Log(myTrans.position.x);
-      //Debug.Log(end);
-      //Debug.Log(speed);
 
-      if (myTrans.position.x < end ^ myTrans.position.x > start)
+      if (myTrans.position.x < end ^ myTrans.position.x > start) //turn around when at the end of walking
       {
         Vector3 currRot = myTrans.eulerAngles;
         currRot.y += rotation;
         myTrans.eulerAngles = currRot;
-        //Debug.Log("CHANGED");
       }
 
       Vector2 myVel = myBody.velocity;
       myVel.x = -myTrans.right.x * speed;
       myBody.velocity = myVel;
     }
-    else if(gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Red)
+    else if(gameObject.GetComponent<Enemy>().typ == Enemy.Typ.Red) //sets the settings so enemy starts running towards player
     {
       target = GameObject.FindWithTag("Player").transform;
       Vector3 targetHeading = target.position - transform.position;
@@ -72,6 +68,7 @@ public class Movement : MonoBehaviour
     
   }
 
+  //stops the motin of blue enemies
   IEnumerator Sleep(float seconds)
   {
     yield return new WaitForSeconds(seconds);
@@ -79,7 +76,7 @@ public class Movement : MonoBehaviour
     GetComponent<Renderer>().material.color = Color.white;
   }
 
-  void UpdateMovement()
+  void UpdateMovement() //Updated the movement values
   {
     end = start - length;
   }

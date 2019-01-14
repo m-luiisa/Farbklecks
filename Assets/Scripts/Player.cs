@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
   //Health
   public int health;
-  public float invincible = 0.8f;
+  public float invincible = 0.8f; //time of invisibility
 
   void Start()
   {
@@ -25,7 +25,8 @@ public class Player : MonoBehaviour
     dropsMagenta.text = PlayerPrefs.GetInt("Magenta").ToString();
     dropsYellow.text = PlayerPrefs.GetInt("Yellow").ToString();
     health = 3;
-    Physics2D.IgnoreLayerCollision(0, 8, false);
+
+    Physics2D.IgnoreLayerCollision(0, 8, false);  //player and enemies can collide
     Physics2D.IgnoreLayerCollision(0, 10, false);
 
     if (SceneManager.GetActiveScene().name == "World")
@@ -110,7 +111,8 @@ public class Player : MonoBehaviour
 
   //count Drops
   private void OnTriggerEnter2D(Collider2D collision)
-  {
+  { 
+    //when collecting drops set the new number of drops and destroy the drop
     switch (collision.gameObject.tag)
     { //countingDrops
       case "DropRed":
@@ -203,7 +205,7 @@ public class Player : MonoBehaviour
     }
     else
     {
-      StartCoroutine(HurtBlinker(invincible));
+      StartCoroutine(HurtBlinker(invincible)); //blinking when hit
     }
   }
 
@@ -229,12 +231,12 @@ public class Player : MonoBehaviour
 
   IEnumerator HurtBlinker(float hurtTime)
   {
-    Physics2D.IgnoreLayerCollision(0, 8);
+    Physics2D.IgnoreLayerCollision(0, 8); //Ignore collision with enemies when blinking
     Physics2D.IgnoreLayerCollision(0, 10);
-    this.GetComponent<Animator>().SetLayerWeight(1, 1);
+    this.GetComponent<Animator>().SetLayerWeight(1, 1); //let the animation of blinking come through
     yield return new WaitForSeconds(hurtTime);
     this.GetComponent<Animator>().SetLayerWeight(1, 0);
-    Physics2D.IgnoreLayerCollision(0, 8, false);
+    Physics2D.IgnoreLayerCollision(0, 8, false); //set the collision back, so player can be hit again
     Physics2D.IgnoreLayerCollision(0, 10, false);
   }
 }

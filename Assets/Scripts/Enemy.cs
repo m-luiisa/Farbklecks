@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
 
   void OnCollisionEnter2D(Collision2D other)
   {
+    //defines the enemy interaction when hit by different colors
     if (other.gameObject.tag == "Green")
     {
       Debug.Log("Grün hat getroffen!");
@@ -31,7 +32,8 @@ public class Enemy : MonoBehaviour
       Debug.Log("Rot hat getroffen");
       gameObject.layer = 0;
 
-      if(GameObject.FindWithTag("Player").transform.position.x < transform.position.x && transform.eulerAngles.y == 180)
+      //turn towards player
+      if (GameObject.FindWithTag("Player").transform.position.x < transform.position.x && transform.eulerAngles.y == 180)
       {
         Vector3 currRot = transform.eulerAngles;
         currRot.y += 180;
@@ -47,7 +49,7 @@ public class Enemy : MonoBehaviour
       }
       
       GetComponent<Movement>().rotation = 0;
-      tag = "RedEnemy";
+      tag = "RedEnemy"; //changes the tag, so Movement knows what to do
       GetComponent<Renderer>().material.color = Color.red;
       Die(10);
     }
@@ -69,7 +71,7 @@ public class Enemy : MonoBehaviour
 
     if (other.gameObject.tag == "RedEnemy")
     {
-      Destroy(gameObject);
+      Destroy(gameObject);  //if hit by another red enemy, it dies
     }
 
   }

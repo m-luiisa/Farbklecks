@@ -19,6 +19,7 @@ public class PlatformMoving : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
   {
+    //direction 0 -> horicontically; 1 -> vertically
     if(direction == 0)
     {
       newPos = startPos;

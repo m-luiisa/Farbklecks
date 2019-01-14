@@ -47,7 +47,7 @@ public class Ground : MonoBehaviour {
     }
   }
 
-  //TRIGGER_EXIT
+  //when leaving yellow/blue ground, change to values to its default ones
   private void OnTriggerExit2D(Collider2D collision)
   {
     if(tag == "YellowGround")

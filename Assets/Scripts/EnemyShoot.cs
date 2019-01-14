@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyShoot : MonoBehaviour {
+public class EnemyShoot : MonoBehaviour
+{
   public Transform bulletspawn;
   public Transform enemy;
   public Rigidbody2D clone;
@@ -22,7 +23,7 @@ public class EnemyShoot : MonoBehaviour {
 
   void Update()
   {
-    time += Time.deltaTime;
+    time += Time.deltaTime; //for a period of time, do something
 
     if (time >= interpolationPeriod)
     {
@@ -33,8 +34,9 @@ public class EnemyShoot : MonoBehaviour {
 
   void Shoot()
   {
-      clone = Instantiate(bullet, bulletspawn.position, bulletspawn.rotation);
-      clone.AddForce(transform.right * speed);
-      Debug.Log("Schuss");
+    //get the bulletspawn and initate at this point a bullet with a force
+    clone = Instantiate(bullet, bulletspawn.position, bulletspawn.rotation);
+    clone.AddForce(transform.right * speed);
+    Debug.Log("Schuss");
   }
 }
